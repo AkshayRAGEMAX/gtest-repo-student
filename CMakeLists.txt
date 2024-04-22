@@ -20,6 +20,7 @@ add_executable(
   StringCalculatorTests
   StringCalculator.cpp
   StringCalculator.Tests.cpp
+  StringCalculatorTestFixture.cpp
 )
 target_link_libraries(
   StringCalculatorTests
