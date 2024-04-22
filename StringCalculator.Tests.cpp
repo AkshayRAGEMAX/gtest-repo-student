@@ -61,13 +61,12 @@ TEST(StringCalculatorTestSuite,returns_the_sum_based_on_that_delimiter){
     //Assert
     ASSERT_EQ(actualValue,expectedValue);
 }
-TEST(StringCalculatorTestSuite,throws_an_exception_listing_invalid_values){
-    //Arrange
+TEST(StringCalculatorTestSuite,when_passed_negative_numbers1){
+    //Arrangee
     StringCalculator objUnderTest;
     string input="1,-2,-4,5";
-    int expectedValue=0;
+    int expectedValue=3;
     //Act
-   int actualValue=  objUnderTest.Add(input);
     //Assert
     ASSERT_THROW(objUnderTest.Add(input),invalid_argument);
 }
