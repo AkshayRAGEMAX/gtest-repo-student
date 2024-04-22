@@ -69,7 +69,7 @@ TEST(StringCalculatorTestSuite,throws_an_exception_listing_invalid_values){
     //Act
    int actualValue=  objUnderTest.Add(input);
     //Assert
-    ASSERT_EQ(actualValue,expectedValue);
+    ASSERT_THROW(objUnderTest.Add(input),invalid_argument);
 }
 TEST(StringCalculatorTestSuite,when_passed_numbers_over_1000){
     //Arrange
