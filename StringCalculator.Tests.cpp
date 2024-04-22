@@ -20,3 +20,4 @@ TEST(StringCalculatorTestSuite,GivenZeroEmptyStringZeroIsExpected){
    int actualValue=  objUnderTest.Add(input);
     //Assert
     ASSERT_EQ(actualValue,expectedValue);
+}
