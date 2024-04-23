@@ -1,4 +1,4 @@
-#include "TeleCo.cpp"
+#include "TeleCo.h"
 #include <gtest/gtest.h>
 
 class DataDrivenTestFixture:public testing::Test{
