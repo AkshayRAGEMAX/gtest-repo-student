@@ -17,12 +17,7 @@ FetchContent_MakeAvailable(googletest)
 enable_testing()
 add_compile_options("--coverage")
 add_executable(
-  StringCalculatorTests
-  StringCalculator.cpp
-  StringCalculator.Tests.cpp
-  StringCalculatorTestFixture.cpp
   TelCoColorCoder.Test.cpp
-  TelCoColorCoder.cpp
 )
 target_link_libraries(
   StringCalculatorTests
