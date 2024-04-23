@@ -37,8 +37,3 @@ TEST_F(StringCalculatorTestFixture,Given2numbers){
     //Assert
     ASSERT_EQ(actualValue,expectedValue);
 }
- 
-has context menu
-
-
-has context menu
