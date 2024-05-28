@@ -18,7 +18,6 @@ enable_testing()
 add_compile_options("--coverage")
 add_executable(
   StringCalculatorTests
-  TelCoColorCoder.Test.cpp
 )
 target_link_libraries(
   StringCalculatorTests
